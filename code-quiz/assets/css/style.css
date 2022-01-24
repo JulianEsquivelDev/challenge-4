@@ -1,0 +1,95 @@
+body {
+    background-color: green;
+}
+ 
+.container {
+    width: 800px;
+    height: 500px;
+    margin: 75px auto;
+    background-color: #fff;
+    padding: 10px 50px 50px 50px;
+    border: 8px solid orange; 
+}
+ 
+.container h1 {
+    font-family: "impact";
+    background-color: orange;
+    font-size: 60px;
+    text-align: center;
+    color: white;
+    padding: 2px 0px;
+    
+}
+.startPage {
+    margin: 100px auto;
+    width: 30%;
+    border: 5px solid black;
+    text-align: center;
+    background-color: white;
+    padding: 10px 10px;
+    box-shadow: 0 0.4rem 1.4rem 0 orange;
+}
+.SQ {
+    width: 120px;
+    height: 70px;
+    background-color: orange;
+    color: green;
+    border-radius: 60%;
+}
+a {
+    text-decoration: none;
+    color: green;
+    font-size: 20px;
+}
+#score {
+    color: orange;
+    text-align: center;
+    font-size: 30px;
+}
+ 
+.container #question {
+    font-family: "impact";
+    font-size: 30px;
+    color: black;
+}
+ 
+.buttons {
+    margin-top: 30px;
+}
+ 
+#btn0, #btn1, #btn2, #btn3 {
+    background-color: orange;
+    width: 250px;
+    font-size: 20px;
+    color: white;
+    border: 2px solid black;
+    margin: 10px 40px 10px 0px;
+    padding: 10px 10px;
+    display: flex;
+}
+ 
+#btn0:hover, #btn1:hover, #btn2:hover, #btn3:hover {
+    cursor: pointer;
+    background-color: green;
+    box-shadow: 0 0.4rem 1.4rem 0 green;
+    transform: scale(1.04);
+}
+ 
+#btn0:focus, #btn1:focus, #btn2:focus, #btn3:focus {
+    outline: 0;
+}
+ 
+#progress {
+    font-family: "impact";
+    color: black;
+    font-size: 18px;
+}
+#timer {
+    display: flex;
+    float: right;
+    font-size: 30px;
+}
+.left {
+    margin-left: 700px;
+    font-size: 30px;
+}
